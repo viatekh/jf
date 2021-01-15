@@ -1,0 +1,38 @@
+body,
+html {
+  height: 100%;
+}
+
+#container {
+
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Xanh Mono', monospace;
+}
+
+body {
+  /* font-weight: 200;
+  font-size: 1.5rem; */
+background-image: url(../images/hamsa.svg);
+background-image: url(../images/stucco.jpg);
+
+  color:black;
+  /* text-transform: lowercase; */
+  font-family: 'Xanh Mono', monospace;
+}
+
+a {
+  color:black;
+}
+
+
+.fixed-row-bottom {
+  position: fixed; bottom: 0;
+}
+
+img {
+  z-index: -1;
+  padding: 0;
+}
